@@ -22,7 +22,7 @@ def main():
     end = time.time()
     print(f'All is done, total sec - {end-start}')
 
-    saveToFile(result, 'result_test_2.json')
+    saveToFile(result, 'result.json')
 
 
 if __name__ == '__main__':
