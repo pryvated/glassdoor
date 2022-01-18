@@ -14,6 +14,7 @@ python main.py
 Failed requests have `max_retries=3` (if request failed or Selenium can not scrape the data)
 
 # Shortly about
+Powered with `Selenium`, `undetected-chromedriver`
 * Since GlassDoor uses Cloudflare for ant-fraud protection, I had to use `undetected_chromedriver`
 * When I started this task, I decided to use default selenium parsing solutions. But I didn't like the performance at all, it took more than 1 minute to scrape one page
 * So I started inspecting the JavaScript of GlassDoor
